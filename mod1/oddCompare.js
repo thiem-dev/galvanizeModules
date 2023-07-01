@@ -1,6 +1,7 @@
-function isEitherEven(num1, num2) {
+function areBothOdd(num1, num2) {
   // your code here
   /* START SOLUTION */
+  
   let numArray = [num1, num2];
   let boolArray = [];
   
@@ -16,11 +17,13 @@ function isEitherEven(num1, num2) {
     }
   }
   
-    if(!boolArray[0] || !boolArray[1]){
+    if(boolArray[0] && boolArray[1]){
         return true
-    } 
-    else {
+    } else{
         return false;
     }
+
+    
+
   /* END SOLUTION */
 }
