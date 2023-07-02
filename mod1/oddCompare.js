@@ -7,7 +7,7 @@ function areBothOdd(num1, num2) {
   
   
   for(let i = 0; i < numArray.length; i++){
-    let res =  Math.abs(numArray[i]%2);
+    let res =  Math.abs(numArray[i]%2); //if mod 2 gives remainder, then it is odd
     if (res === 0){
         boolArray[i] = false;
     } else if(res >= 1){
@@ -17,6 +17,7 @@ function areBothOdd(num1, num2) {
     }
   }
   
+//are both odd
     if(boolArray[0] && boolArray[1]){
         return true
     } else{
