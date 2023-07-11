@@ -33,7 +33,30 @@ function findShortestElement(arr) {
     
 }
 
+// ******************************************************************************************************************************
+
+function computeSumOfAllElements(arr) {
+    // your code here
+
+    if(arr.length === 0){
+        return 0;
+    }
+    
+    let total = 0;
+    
+    for(let i = 0; i < arr.length; i++){
+        if(total === 0){
+            total = arr[i];
+        } else {
+            total += arr[i];
+        }
+    }
+    
+    return total;
+  }
 
 
 
 
+
+// ******************************************************************************************************************************
