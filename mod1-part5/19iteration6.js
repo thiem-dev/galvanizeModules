@@ -1,3 +1,34 @@
+function multiplyBetween(num1, num2) {
+    // your code here
+
+    let start = num1;
+    let end = num2;
+
+    if(start > end){
+        [start, end] = [start, end];
+        return 0; 
+    }
+
+    if(start === end){
+        return 0;
+    }
+
+    let product = 1;
+
+    for(let i = start; i < end; i++){ //2 3
+        product *= i;
+    }
+
+
+    return product;
+
+  }
+
+
+
+// ******************************************************************************************************************************
+
+
 function computeSumBetween(num1, num2) {
     // your code here
 
@@ -7,7 +38,7 @@ function computeSumBetween(num1, num2) {
 
     if(min > max){
         [min, max] = [max, min];
-        return 0; //because galvanize is weird
+        return 0; 
     }
 
     let total = sumAll(min, max);
