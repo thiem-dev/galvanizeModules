@@ -1,3 +1,6 @@
+/*  Given two objects as parameters "obj1" and "obj2", complete the addPropertiesToObject function that adds all properties of the first object to the second object and returns the second object.
+*/ 
+
 function addPropertiesToObject(obj1, obj2) {
     // Your psuedocode here
     

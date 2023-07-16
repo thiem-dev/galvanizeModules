@@ -1,3 +1,6 @@
+/*  Complete the createNewArray function that takes in an array and another function, then returns a new array containing the results of calling the input function on each element in the array.
+*/ 
+
 function createNewArray(arr, func) {
     //Your pseudocode here
 

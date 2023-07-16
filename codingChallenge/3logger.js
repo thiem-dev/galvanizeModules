@@ -1,3 +1,6 @@
+/* Complete the logger function that takes in a function and a string and returns the result of calling the function on each letter in the string
+*/
+
 function logger(func, str) {
     //Your psuedocode here
 
