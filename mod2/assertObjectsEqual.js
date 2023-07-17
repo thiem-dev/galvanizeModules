@@ -3,7 +3,8 @@ function assertObjectsEqual(actual, expected, testName) {
     expectedStr = expected.JSON.stringify(expected);
     actualStr = expected.JSON.stringify(actual);
 
-    console.log()
+    console.log(expectedStr);
+    console.log(actualStr);
 }
 
 var person = {
