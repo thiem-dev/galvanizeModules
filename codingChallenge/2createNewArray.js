@@ -37,7 +37,7 @@ function createNewArray(arr, func) {
 
     //loop through each element of arr
     for(let i = 0; i < arr.length; i++){
-        let res = func(arr[i]); //call func with arr element
+        let res = func(arr[i]); //call func with arr element //higher order function: func 
         arr2.push(res); //assign arr2 elements with func results
     }
 
