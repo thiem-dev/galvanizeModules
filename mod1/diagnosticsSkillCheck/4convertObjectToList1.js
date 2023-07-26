@@ -7,7 +7,7 @@ function getAllKeys(obj) {
     //     arr.push(key);
     // }
 
-    //the above code block words too
+    //the above code block works too
     for(let key in obj){
         if(obj.hasOwnProperty(key)){
             arr.push(key);
